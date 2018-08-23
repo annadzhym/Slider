@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'slick';
+    src: url('../fonts/slick.woff') format('woff'),
+    url('../fonts/slick.eot') format('eot'),
+    url('../fonts/slick.svg') format('svg'),
+    url('../fonts/slick.ttf') format('truetype');
+}
+body{
+    background: white;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.header {
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.image {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    margin-right: 15px;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #04bb7e;
+    opacity: 0;
+    color: white;
+}
+
+.mask:hover {
+    opacity: 0.8;
+}
+
+.mask__text {
+    position: absolute;
+    top: 68%;
+    left: 3%;
+}
+
+.carousel {
+    width: 1300px;
+    margin: 100px auto;
+}
+
+.prev {
+    position: absolute;
+    left: -98px;
+    top: 35%;
+}
+
+.next {
+    position: absolute;
+    right: 20px;
+    top: 35%;
+}
+
